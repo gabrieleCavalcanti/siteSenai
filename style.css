@@ -1,0 +1,28 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+header {
+  background-color: grey;
+  color: #ecf0f1;
+  width: 100%;
+}
+
+footer {
+  background-color: grey;
+  color: #ecf0f1;
+  width: 100%;
+
+  display: flex;
+}
