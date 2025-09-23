@@ -1,38 +1,85 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    
+    <link rel="stylesheet" href="contact.css">
 </head>
+
 <body>
 
     <header>
-        <nav> 
+        <img class="logo" src="./imagem/logo (1).png" alt="Logo SENAI" />
+        <nav>
             <a href="./index.html">Home</a>
             <a href="./marketplace.html">Marketplace</a>
-            <a href="./contact.html">Contato</a>
             <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
         </nav>
+
     </header>
+    <main>
+        <div class="container">
+            <form class="form" action="/enviar" method="post">
+                <legend class="nomeFormulario">Formulário de Cadastro</legend><br>
 
-    <main></main>
+                <div class="nomeEmail">
+                    <div class="form_grupo">
+                        <label class="label" for="nome">Nome:</label><br>
+                        <input class="input" type="text" id="nome" name="nome" required>
+                    </div>
+                    <br> <br>
+                    <div class="form_grupo">
+                        <label class="label" for="email">E-mail:</label><br>
+                        <input class="input" type="text" id="email" name="email" required>
+                    </div>
+                </div><br>
+                <label class="label" for="telefone">Telefone:</label><br>
+                <input class="inputTel" type="tel" id="telefone" name="telefone" required><br><br>
 
-    <footer>
-        <nav> 
-            <p>Links</p>
-            <a href="./index.html">Home</a>
-            <a href="./marketplace.html">Marketplace</a>
-            <a href="./contact.html">Contato</a>
-            <a href="./about.html">About</a>
-        </nav>
-        <nav> 
-            <p>Suporte</p>
-            <a href="">FAQ</a>   
-        </nav>
-        <p>suporte@gmail.com +99 (99) 9999-99999</p>
-    </footer>
+                <label class="label" for="mensagem">Mensagem:</label><br><br>
+                <textarea id="mensagem" name="mensagem"></textarea><br><br>
+
+                <input class="enviar" type="submit" value="Enviar">
+            </form>
+        </div>
+
+
+    </main>
+
+
 
 </body>
-</html>
+<footer>
+    <div class="footer">
+        <h2>Links</h2>
+        <ul>
+            <li> <a href="./index.html">Home</a></li>
+            <li> <a href="./marketplace.html">Marketplace</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
 
+    </div>
+
+    <div class="footer">
+        <h2>Suporte</h2>
+        <ul>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Como Funciona</a></li>
+            <li><a href="">Regras de Devolução</a></li>
+        </ul>
+    </div>
+    <div class="footer">
+        <h2>Nosso Contato</h2>
+        <ul>
+            <li>Telefone: (00) 1234-5678</li>
+            <li>Email: Contato@exemplo.com</li>
+        </ul>
+    </div>
+</footer>
+
+</html>

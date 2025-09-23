@@ -1,0 +1,189 @@
+/* header */
+/* lOGO css */
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 200px;
+
+}
+
+nav a {
+    margin-left: 0px;
+    color: red;
+    text-decoration: none;
+    margin-right: 10px
+}
+
+nav {
+    margin-left: 0px;
+    margin-right: 250px
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* header */
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: red;
+    width: 1000px;
+    height: 330px;
+    border-radius: 15px;
+    color: white;
+}
+
+.form {
+    width: 950px;
+    height: 300px;
+    margin: 22px;
+}
+
+main {
+    margin: 0;
+    /* Remove margens padrão do body */
+    display: flex;
+    align-items: center;
+    /* Centraliza verticalmente */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    min-height: 77vh;
+    /* Garante que o body ocupe toda a altura da tela */
+}
+
+.input {
+    background-color: red;
+    border: none;
+    /* Remove a borda do input */
+    border-bottom: 1px solid white;
+    /* Adiciona uma linha inferior preta */
+
+    /* Opcional: para ajustar o espaçamento do texto */
+    padding: 0px;
+    /* Opcional: para ajustar o espaçamento do texto */
+    width: 100%;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white
+}
+
+#mensagem {
+    background-color: red;
+    border: none;
+    /* Remove a borda do textarea */
+    border-bottom: 1px solid white;
+    /* Adiciona uma linha inferior preta */
+    padding: 5px;
+    /* Opcional: para ajustar o espaçamento do texto */
+    width: 100%;
+    /* Opcional: para definir a largura */
+    box-sizing: border-box;
+    /* Opcional: para que a largura inclua o padding */
+    color: white
+}
+
+.enviar {
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    width: 100%;
+    /* Faz o botão ocupar 100% da largura do formulário */
+    padding: 5px;
+    /* Adiciona um pouco de padding interno no botão */
+    margin: 0px;
+}
+
+.nomeFormulario {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.label {
+    font-size: 11px;
+}
+
+.inputTel {
+    background-color: red;
+    border: none;
+    /* Remove a borda do input */
+    border-bottom: 1px solid white;
+    /* Adiciona uma linha inferior preta */
+    padding: 0px;
+    /* Opcional: para ajustar o espaçamento do texto */
+    width: 100%;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.form .nomeEmail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_grupo {
+    width: 48%;
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    height: 105px;
+}
+
+.footer {
+    margin: 0 90px 0 90px;
+    padding: 5px 60px 5px 60px;
+}
+
+.footer>ul,
+li {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+
+}
+
+.footer>ul,
+li,
+a,
+p {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+
+.footer>h2 {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+/* footer */
