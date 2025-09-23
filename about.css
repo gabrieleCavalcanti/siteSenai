@@ -1,7 +1,11 @@
 main {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 20px 20px;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+  height: 600px;
+  padding: 0px 20px;
 }
 
 .container-flex {
@@ -23,27 +27,9 @@ main {
 
 .container-flex img {
   width: 800px;
-  height: 490px;
+  height: 525px;
   flex: 0 0 auto;
-  margin-top: -40px;
-}
-
-
-footer {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 5px 40px;
-}
-
-footer nav {
-  margin-bottom: 10px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin-top: -80px;
 }
 
 
@@ -51,11 +37,11 @@ footer nav {
 /* lOGO */
 header {
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 30px 40px;
+  padding: 5px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 60px;
 }
 
 .logo {
@@ -67,7 +53,7 @@ nav a {
   margin-left: 0px;
   color: red;
   text-decoration: none;
-  margin-right: 20px
+  margin-right: 10px
 }
 
 nav {

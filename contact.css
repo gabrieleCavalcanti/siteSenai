@@ -57,27 +57,20 @@ body {
 }
 
 main {
-    margin: 0;
-    /* Remove margens padrão do body */
-    display: flex;
-    align-items: center;
-    /* Centraliza verticalmente */
-    justify-content: center;
-    /* Centraliza horizontalmente */
-    min-height: 77vh;
-    /* Garante que o body ocupe toda a altura da tela */
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+  height: 600px;
+
 }
 
 .input {
     background-color: red;
     border: none;
-    /* Remove a borda do input */
     border-bottom: 1px solid white;
-    /* Adiciona uma linha inferior preta */
-
-    /* Opcional: para ajustar o espaçamento do texto */
     padding: 0px;
-    /* Opcional: para ajustar o espaçamento do texto */
     width: 100%;
     margin: 0px;
     box-sizing: border-box;
@@ -87,15 +80,10 @@ main {
 #mensagem {
     background-color: red;
     border: none;
-    /* Remove a borda do textarea */
     border-bottom: 1px solid white;
-    /* Adiciona uma linha inferior preta */
     padding: 5px;
-    /* Opcional: para ajustar o espaçamento do texto */
     width: 100%;
-    /* Opcional: para definir a largura */
     box-sizing: border-box;
-    /* Opcional: para que a largura inclua o padding */
     color: white
 }
 
@@ -105,9 +93,7 @@ main {
     border-radius: 20px;
     border: 1px solid white;
     width: 100%;
-    /* Faz o botão ocupar 100% da largura do formulário */
     padding: 5px;
-    /* Adiciona um pouco de padding interno no botão */
     margin: 0px;
 }
 
@@ -123,11 +109,8 @@ main {
 .inputTel {
     background-color: red;
     border: none;
-    /* Remove a borda do input */
     border-bottom: 1px solid white;
-    /* Adiciona uma linha inferior preta */
     padding: 0px;
-    /* Opcional: para ajustar o espaçamento do texto */
     width: 100%;
     margin: 0px;
     box-sizing: border-box;
